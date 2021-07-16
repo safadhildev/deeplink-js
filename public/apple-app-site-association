@@ -1,0 +1,37 @@
+{
+  "applinks": {
+    "apps":[],
+    "details": [
+      {
+        "appID": "BRR273Y7NF.co.hoolah.buynowpaylater.dev",
+        "paths": ["NOT /_/*","/*"]
+      },
+      {
+      "appIDs": [ 
+        "BRR273Y7NF.co.hoolah.buynowpaylater.dev",
+        "BRR273Y7NF.co.hoolah.buynowpaylater.stg",
+        "BRR273Y7NF.co.hoolah.buynowpaylater.uat",
+        "BRR273Y7NF.co.hoolah.buynowpaylater"
+      ],
+      "components": [
+          {
+            "#": "no_universal_links",
+            "exclude": true,
+            "comment": "Matches any URL whose fragment equals no_universal_links and instructs the system not to open it as a universal link"
+          },
+          {
+            "/": "/" ,
+             "comment": "Matches any URL whose path starts with any"
+          }
+        ],
+    }]
+  },
+  "webcredentials":{
+    "apps":[ 
+        "BRR273Y7NF.co.hoolah.buynowpaylater.dev",
+        "BRR273Y7NF.co.hoolah.buynowpaylater.stg",
+        "BRR273Y7NF.co.hoolah.buynowpaylater.uat",
+        "BRR273Y7NF.co.hoolah.buynowpaylater"
+      ],
+  }
+}
